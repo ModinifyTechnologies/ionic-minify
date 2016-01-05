@@ -24,7 +24,8 @@
     "mozjpeg-stream": "~1.0.2",
     "ng-annotate": "~0.15.4",
     "pngout-bin": "~2.0.1",
-    "uglify-js": "~2.6.1"
+    "uglify-js": "~2.6.1",
+    "iconv-lite": "0.4.13"
   },
   "author": "Luis Rogelio Hernández López",
   "license": "MIT",

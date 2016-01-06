@@ -1,6 +1,6 @@
 {
   "name": "ionic-minify",
-  "version": "2.0.0",
+  "version": "2.0.4",
   "description": "Cordova hook that minifies your JavaScript and CSS files, and compresses your JPG and PNG images.",
   "homepage": "https://github.com/Kurtz1993/ionic-minify",
   "engines": {
@@ -20,25 +20,51 @@
   ],
   "dependencies": {
     "chalk": "^1.1.1",
-    "clean-css": "~3.4.8",
-    "mozjpeg-stream": "~1.0.2",
-    "ng-annotate": "~0.15.4",
-    "pngout-bin": "~2.0.1",
-    "uglify-js": "~2.6.1",
+    "clean-css": "3.4.8",
+    "mozjpeg-stream": "1.0.2",
+    "ng-annotate": "0.15.4",
+    "pngout-bin": "2.0.1",
+    "shelljs": "0.5.3",
+    "uglify-js": "2.6.1",
     "iconv-lite": "0.4.13"
   },
-  "author": "Luis Rogelio Hernández López",
+  "author": {
+    "name": "Luis Rogelio Hernández López"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Kurtz1993/ionic-minify/issues"
   },
-  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kurtz1993/ionic-minify.git"
+    "url": "git+https://github.com/Kurtz1993/ionic-minify.git"
   },
   "scripts": {
+    "prepublish": "tsc",
     "postinstall": "node scripts/install.js",
     "postuninstall": "node scripts/uninstall.js"
-  }
+  },
+  "gitHead": "c5091d9ee9e6255ca1a787f94272c983054b66e8",
+  "_id": "ionic-minify@2.0.4",
+  "_shasum": "d6d313c494dd39a2b185eec6202f19bae035c161",
+  "_from": "ionic-minify@*",
+  "_npmVersion": "2.14.12",
+  "_nodeVersion": "4.2.4",
+  "_npmUser": {
+    "name": "kurtz1993",
+    "email": "luis.hlopez@outlook.com"
+  },
+  "dist": {
+    "shasum": "d6d313c494dd39a2b185eec6202f19bae035c161",
+    "tarball": "http://registry.npmjs.org/ionic-minify/-/ionic-minify-2.0.4.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "kurtz1993",
+      "email": "luis.hlopez@outlook.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/ionic-minify/-/ionic-minify-2.0.4.tgz",
+  "readme": "ERROR: No README data found!"
 }

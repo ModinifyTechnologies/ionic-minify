@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-var path = require("path");
-var im = require("ionic-minify");
+var path = require('path');
+var ionic_minify_1 = require('ionic-minify');
 var config = require("../minify-conf.json");
 var cmd = process.env.CORDOVA_CMDLINE;
 var rootDir = process.argv[2];
@@ -9,7 +9,7 @@ var platforms = process.env.CORDOVA_PLATFORMS.split(',');
 var platformPath = path.join(rootDir, "platforms");
 config.showErrStack = (config.showErrStack || false);
 config.jsOptions.fromString = true;
-var ionicMinify = new im.Minifier(config, platforms, platformPath);
+var ionicMinify = new ionic_minify_1.Minifier(config, platforms, platformPath);
 if (minify) {
     console.log("Starting minifying your files...");
     ionicMinify.run();

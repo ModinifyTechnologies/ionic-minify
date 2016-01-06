@@ -1,8 +1,8 @@
 #! /usr/bin/env node
-var fs = require("fs");
-var path = require("path");
-var readline = require("readline");
-var chalk = require("chalk");
+var fs = require('fs');
+var path = require('path');
+var readline = require('readline');
+var chalk = require('chalk');
 var rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
